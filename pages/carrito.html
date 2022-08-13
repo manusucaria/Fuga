@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name=”description” content=”Formulario de contacto para pedidos”>
+        <meta name=”author” content=”Noheli Gardon”>
+        <meta name=”keywords” content=”ropa, diseño, ropa de autor, mujer, ropa de mujer, buzos, remeras, pantalones, polleras, camperas, vestidos”>
+        <meta name=”copyright” content=”Fuga.lab”>
+        <link rel="icon" href="../assets/img/icon.ico">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/animate.css">
+        <title>Conjuro Contacto</title>
+    </head>
+    <body class="fondocat">
+        <!--HEADER-->
+        <header>
+            <nav class="w-100 grid-nav">
+                    <div class="grid-title mx-auto mt-2">
+                        <a href="../index.html">
+                            <h1>FUGA</h1>
+                        </a>
+                    </div>
+                    <div class="grid-botones d-flex ms-auto me-5">
+                        <a class="my-auto" href="../index.html">
+                            <img class="botones-casita" src="../assets/img/home.png" alt="Icono de Home">
+                        </a>
+                        <a class="my-auto ms-1 me-5 me-md-1" href="carrito.html" target="_blank">
+                            <img class="botones" src="../assets/img/carrito.png" alt="Icono de Carrito">
+                        </a>
+                    </div>
+            </nav>
+        </header>
+            <!--MAIN-->
+        <main class="d-flex flex-column">
+            <!-- inicia form -->
+            <div class="animation-carrito">
+                <section>
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdeCXWcGuWpwgaHeC8n4l-n3wgPrmTiB1TIo_P0GY84CtIi9w/formResponse" method="post">
+                        <div class="d-flex">
+                            <h3 class="mx-auto py-4 titulo-carrito">CONTACTO</h3>
+                        </div>
+                        <fieldset class="form-fondo mx-auto p-5 d-flex flex-column">
+                            <label class="me-auto mb-3 mt-5">Nombre y Apellido</label>
+                            <input class="w-100 px-2 py-2" type="text" name="entry.1305494716" placeholder="Ingresa tu Nombre" required>
+                            <label class="me-auto mt-5 mb-3">Dirección de Email</label>
+                            <input class="w-100 px-2 py-2" type="email" name="entry.141436261" placeholder="email@gmail.com" required>
+                            <label class="me-auto mt-5 mb-3">Teléfono</label>
+                            <input class="w-100 px-2 py-2" type="tel" name="entry.561535156"  placeholder="1156323465" required>
+                            <label class="me-auto mt-5 mb-3">Ubicación</label>
+                            <select class="w-100" name="entry.1174120271" id="provincia" aria-label="Ubicacion" required>
+                                <option selected class="p-2">Buenos Aires</option>
+                                <option value="1">Córdoba</option>
+                                <option value="2">Santa Fe</option>
+                                <option value="3">Otra Provincia</option>
+                            </select>
+                            <label class="me-auto mt-5 mb-3" for="product">Pedido</label>
+                            <input class="w-100 px-2 py-2" type="text" name="entry.622438233" id="product" placeholder="Ingresa el/los modelo/s que te interesan" required>
+                            <div class="d-flex justify-content-around align-items-start mt-5">
+                                <div class="d-flex flex-row-reverse">
+                                    <label class="form-check-label p-1 checkbox" for="remera">Remera</label>
+                                    <input type="checkbox" class="form-check-input me-1 checkbox" id="remera" value="Remera" autocomplete="on">
+                                </div>
+                                <div class="d-flex flex-row-reverse">
+                                    <label class="form-check-label p-1 checkbox" for="pantalon">Pantalon</label>
+                                    <input type="checkbox" class="form-check-input me-1 checkbox" id="pantalon" value="Pantalon" autocomplete="off">
+                                </div>
+                                <div class="d-flex flex-row-reverse">
+                                    <label class="form-check-label p-1 checkbox" for="buzo">Buzo</label>
+                                    <input type="checkbox" class="form-check-input me-1 checkbox" id="buzo" value="Buzo" autocomplete="off">
+                                </div>
+                                <div class="d-flex flex-row-reverse">
+                                    <label class="form-check-label p-1 checkbox" for="campera">Campera</label>
+                                    <input type="checkbox" class="form-check-input me-1 checkbox" id="campera" value="Campera" autocomplete="off">
+                                </div>
+                            </div>
+                            <label class="me-auto mt-5 mb-3" for="product">Talle y Preferencias</label>
+                            <textarea class="w-100 px-2 py-2" name="entry.1229127110" id="product" placeholder="Decinos tu Talle y Preferencias" cols="20" rows="4" required></textarea>
+                            <section class="d-flex flex-row mt-5 mb-4">
+                                <input class="w-50 me-1 botones-enviar" type="submit" target="_blank" value="Enviar">
+                                <input class="w-50 ms-1 botones-enviar" type="reset" value="Cancelar">
+                            </section>
+                        </fieldset>
+                    </form>
+                </section>
+            </div>
+            <!-- ends form -->
+            <div class="animation-carrito">
+                <section class="mx-auto form-fondo p-5 ubicacion d-flex flex-column">
+                    <h4 class="mx-auto p-4 titulo-mapa">De Donde Somos</h4>
+                    <iframe class="mx-auto w-100 py-4 mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13169.335839987958!2d-58.7468097!3d-34.3928566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca0212f1c9487%3A0x7cb0684a8144f24!2sLas%20Clavelinas%20-%20Hotel%20y%20Eventos!5e0!3m2!1ses-419!2sar!4v1653402769762!5m2!1ses-419!2sar" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div>
+        </main>
+        <!--FOOTER-->
+        <footer>
+            <div class="w-100 d-flex flex-column mx-auto">
+                <div class="d-flex mx-auto mb-4">
+                    <a class="me-5" href="nosotros.html" target="_blank"><p>Nosotros</p></a>
+                    <a class="me-5" href="https://www.instagram.com/conjuro_taller/" target="_blank"><p>Instagram</p></a>
+                    <a class="" href="feria.html" target="_blank"><p>Feria</p></a>
+                </div>
+                <div class="d-flex mx-auto mt-auto mb-3">
+                    <img class="copyright" src="../assets/img/copyright.ico" alt="Copyright">
+                    <h4 class="mt-auto">FUGA LABORATORIO DE COSTURA</h4></small>
+                </div>
+            </div>
+        </footer>
+    <script src="../js/bootstrap.bundle.min.js">
+    </script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    </body>
+</html>
