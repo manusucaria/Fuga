@@ -16,41 +16,57 @@
     </head>
     <body>
         <header>
-            <nav class="w-100 grid-nav">
-                    <div class="grid-title mx-auto mt-2">
-                        <a href="index.html">
-                            <h1>FUGA</h1>
-                        </a>
-                    </div>
-                    <div class="grid-botones d-flex ms-auto me-5">
-                        <a class="my-auto" href="index.html">
-                            <img class="botones-casita" src="assets/img/home.png" alt="Icono de Home">
-                        </a>
-                        <a class="my-auto ms-1 me-5 me-md-1" href="pages/carrito.html" target="_blank">
-                            <img class="botones" src="assets/img/carrito.png" alt="Icono de Carrito">
-                        </a>
-                    </div>
+            <nav class="navbar w-100 grid-nav">
+                <button class="navbar-toggler grid-hamburguesa me-5" type="button" data-bs-toggle="collapse" data-bs-target="#opciones" name="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse me-5" id="opciones">
+                    <ul class="navbar-nav d-flex flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link mt-3" href="pages/feria.html"><p class="text-center">Feria</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/nosotros.html"><p class="text-center">Nosotros</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/carrito.html"><p class="text-center">Contacto</p></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid-title mx-auto mt-2">
+                    <a href="index.html">
+                        <h1>FUGA</h1>
+                    </a>
+                </div>
+                <div class="grid-botones d-flex ms-auto me-5">
+                    <a class="my-auto" href="index.html">
+                        <img class="botones-casita" src="assets/img/home.png" alt="Icono de Home">
+                    </a>
+                    <a class="my-auto ms-1 me-5 me-md-1" href="pages/carrito.html" target="_blank">
+                        <img class="botones" src="assets/img/carrito.png" alt="Icono de Carrito">
+                    </a>
+                </div>
             </nav>
         </header>
         <main>
             <div class="d-flex flex-column">
-                <img class="mx-auto img-404" src="../assets/img/404.jpg" alt="Error 404">
+                <img class="mx-auto img-404" src="assets/img/404.jpg" alt="Error 404">
                 <p class="texto-404 text-center mt-5">NO SE HA ENCONTRADO LA PAGINA SOLICITADA</p>
             </div>
             <div class="d-flex flex-column mt-5">
                 <p class="texto-404 text-center">Links que te Pueden Interesar:</p>
                 <ul class="d-flex flex-column mx-auto">
                     <li>
-                        <a href="../index.html"><p class="lista-404">Inicio</p></a>
+                        <a href="index.html"><p class="lista-404">Inicio</p></a>
                     </li>
                     <li class="">
-                        <a href="feria.html"><p class="lista-404">Feria</p></a>
+                        <a href="pages/feria.html"><p class="lista-404">Feria</p></a>
                     </li>
                     <li class="">
-                        <a href="carrito.html"><p class="lista-404">Contacto</p></a>
+                        <a href="pages/carrito.html"><p class="lista-404">Contacto</p></a>
                     </li>
                     <li class="">
-                        <a href="nosotros.html"><p class="lista-404">Acerca de Conjuro</p></a>
+                        <a href="pages/nosotros.html"><p class="lista-404">Acerca de Conjuro</p></a>
                     </li>
                 </ul>
             </div>
@@ -60,8 +76,9 @@
                     <div class="w-100 d-flex flex-column mx-auto">
                         <div class="d-flex mx-auto mb-4">
                             <a class="me-5" href="pages/nosotros.html" target="_blank"><p>Nosotros</p></a>
-                            <a class="me-5" href="https://www.instagram.com/conjuro_taller/" target="_blank"><p>Instagram</p></a>
-                            <a class="" href="pages/feria.html" target="_blank"><p>Feria</p></a>
+                            <a class="me-5" href="pages/carrito.html" target="_blank"><p>Contacto</p></a>
+                            <a class="me-5" href="pages/feria.html" target="_blank"><p>Feria</p></a>
+                            <a href="https://www.instagram.com/fuga.lab/" target="_blank"><p>Instagram</p></a>
                         </div>
                         <div class="d-flex mx-auto mt-auto mb-3">
                             <img class="copyright" src="assets/img/copyright.ico" alt="Copyright">

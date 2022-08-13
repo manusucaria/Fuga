@@ -29,6 +29,27 @@ header{
             font-size: 7rem;
         }
     }
+    div ul li a p{
+        @include texto(1.5rem,500,map-get($map:$paleta, $key: 'black'));
+        font-family: $fuga;
+        transition: transform .1s;
+        &:hover{
+            color: map-get($map:$paleta, $key: 'third');
+            transform: translateX(.5px);
+        }
+        @media screen and (max-width: 767px) {
+            font-size: 3.5rem;
+        }
+        @media screen and (min-width: 768px) and (max-width: 900px){
+            font-size: 1.5rem;
+        }
+        @include desktop{
+            font-size: 1.7rem;
+        }
+        @include wide{
+            font-size: 1.6rem;
+        }
+    }
 }
 /**CLASES**/
 .botones-casita{
@@ -110,6 +131,7 @@ header{
     grid-column: 1/2;
     grid-row: 1/2;
     border: none;
+    border-color: transparent;
 }
 .grid-title{
     grid-column: 2/5;
