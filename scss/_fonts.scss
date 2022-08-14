@@ -4,15 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@1&family=Source+Code+Pro&display=swap');
 html{
     font-size: 62.5%;
-    @media screen and (max-width: 687px){
-        font-size: 20%;
-    }
-    @media screen and (min-width: 688px) and (max-width: 1110px){
-        font-size: 45%;
-    }
-    @media screen and (min-width: 1111px) and (max-width: 1350px){
-        font-size: 60%;
-    }
 }
 $fuga: "Oswald", sans-serif;
 $subtitulo: "Roboto, sans-serif";

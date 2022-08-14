@@ -13,14 +13,17 @@ header{
             color: map-get($map:$paleta, $key: 'third');
             transform: translateX(.5px);
         }
+        @media screen and (max-width: 360px) {
+            font-size: 3.7rem;
+        }
         @include cel{
-            font-size: 7.5rem;
+            font-size: 3rem;
         }
         @include smart{
-            font-size: 8rem;
+            font-size: 3.7rem;
         }
         @include tablet{
-            font-size: 9.5rem;
+            font-size: 4.3rem;
         }
         @include tablet-xl{
             font-size: 6rem;
@@ -30,24 +33,30 @@ header{
         }
     }
     div ul li a p{
-        @include texto(1.5rem,500,map-get($map:$paleta, $key: 'black'));
+        @include texto(1.8rem,500,map-get($map:$paleta, $key: 'black'));
         font-family: $fuga;
         transition: transform .1s;
         &:hover{
             color: map-get($map:$paleta, $key: 'third');
             transform: translateX(.5px);
         }
-        @media screen and (max-width: 767px) {
-            font-size: 3.5rem;
+        @include cel{
+            font-size: 1.2rem;
         }
-        @media screen and (min-width: 768px) and (max-width: 900px){
+        @media screen and (max-width: 687px) and (min-width: 362px){
+            font-size: 1.3rem;
+        }
+        @include tablet-xl{
             font-size: 1.5rem;
         }
         @include desktop{
-            font-size: 1.7rem;
+            font-size: 1.5rem;
         }
-        @include wide{
+        @media screen and (min-width: 1111px) and (max-width: 1199px){
             font-size: 1.6rem;
+        }
+        @media screen and (min-width: 1200px) and (max-width: 1350px){
+            font-size: 1.7rem;
         }
     }
 }
@@ -55,32 +64,30 @@ header{
 .botones-casita{
     height: 40px;
     width: 40px;
+    margin-right: 1rem;
     transition: transform .1s;
     &:hover{
         transform: translateX(.5px);
     }
     @include cel{
-        height: 29px;
-        width: 29px;
-        margin-left: 1rem;;
+        height: 22px;
+        width: 22px;
     }
     @include smart{
         height: 28px;
         width: 28px;
-        margin-left: 1rem;
     }
     @include tablet{
         height: 28px;
         width: 28px;
-        margin-left: 1rem;
     }
     @include tablet-xl{
         height: 28px;
         width: 28px;
     }
     @include desktop{
-        height: 28px;
-        width: 28px;;
+        height: 30px;
+        width: 30px;;
     }
     @include wide{
         height:33px;
@@ -88,38 +95,35 @@ header{
     }
 }
 .botones{
-    height: 25px;
-    width: 25px;
+    height: 23px;
+    width: 23px;
     transition: transform .1s;
     &:hover{
         transform: translateX(.5px);
     }
     @include cel{
-        height: 20px;
-        width: 20px;
-        margin-left: 1rem;;
+        height: 15px;
+        width: 15px;
     }
     @include smart{
         height: 19px;
         width: 19px;
-        margin-left: 1rem;
     }
     @include tablet{
         height: 18px;
         width: 18px;
-        margin-left: 1rem;
     }
     @include tablet-xl{
         height: 18px;
         width: 18px;
     }
     @include desktop{
-        height: 18px;
-        width: 18px;
+        height: 20px;
+        width: 20px;
     }
     @include wide{
-        height: 23px;
-        width: 23px;
+        height: 22px;
+        width: 22px;
     }
 }
 .grid-nav{
@@ -130,8 +134,7 @@ header{
 .grid-hamburguesa{
     grid-column: 1/2;
     grid-row: 1/2;
-    border: none;
-    border-color: transparent;
+    background-color: map-get($map: $paleta, $key: 'white');
 }
 .grid-title{
     grid-column: 2/5;
