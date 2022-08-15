@@ -126,6 +126,15 @@ header{
         width: 22px;
     }
 }
+.lista-nav{
+    text-align: center;
+    @include cel{
+        margin: 0 2rem;
+    }
+    @include smart{
+        margin: 0 2rem;
+    }
+}
 .grid-nav{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
