@@ -1,0 +1,78 @@
+/**CLASES NOSOTROS**/
+.main-nos{
+    margin: 0;
+}
+.div-nos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    min-height: 100vh;
+}
+.videonos{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    max-width: 100vw;
+    min-height: 101%;
+    object-fit: cover;
+    z-index: -1;
+}
+.capa{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background: #1c1c1d;
+    opacity: .5;
+    mix-blend-mode: overlay;
+}
+.w-nos{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    @include cel{
+        width: 80%;
+    }
+    @include smart{
+        width: 80%;
+    }
+}
+.titulo-nosotros{
+    padding: 2rem;
+    margin: 2rem 0;
+    @include texto(4.3rem,500,map-get($map:$paleta, $key: 'claro'));
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    @include cel{
+        font-size: 7.5rem;
+    }
+    @media screen and (max-width: 687px) and (min-width: 362px){
+        font-size: 7.3rem;
+    }
+    @include tablet-xl{
+        font-size: 3.7rem;
+    }
+    @include desktop{
+        font-size: 3.8rem;
+    }
+    @include wide{
+        font-size: 3.9rem;
+    }
+}
+.texto-nosotros{
+    padding: 2rem 4rem;
+    @include texto(3.5rem,400,map-get($map:$paleta, $key: 'claro'));
+    @media screen and (max-width: 450px){
+        font-size: 6.5rem;
+    }
+    @include tablet{
+        font-size: 6.3rem;
+    }
+    @include tablet-xl{
+        font-size: 3.1rem;
+    }
+    @include desktop{
+        font-size: 3.4rem;
+    }
+    @include wide{
+        font-size: 3.3rem;
+    }
+}

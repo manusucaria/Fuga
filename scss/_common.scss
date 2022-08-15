@@ -16,7 +16,7 @@ main{
     margin-top: 3rem;
     margin-bottom: 5rem;
 }
-main img{
+.main-img{
     &:hover{
         transform: scale(1.03);
         transition: transform 1.6s ease;

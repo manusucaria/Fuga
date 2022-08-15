@@ -33,13 +33,13 @@ footer{
         @include texto(1.3rem,500,map-get($map:$paleta, $key: 'black'));
         font-family: $fuga;
         @include cel{
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
         @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
         @include tablet-xl{
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
         @include desktop{
             font-size: 1.1rem;
