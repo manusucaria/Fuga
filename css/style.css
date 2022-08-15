@@ -7974,33 +7974,35 @@ header {
     @media screen and (min-width: 901px) and (max-width: 1350px) {
       header h1, header .h1 {
         font-size: 7rem; } }
-  header div ul li a p {
-    font-size: 1.8rem;
-    font-weight: 100;
-    color: #151414;
-    font-family: "Oswald", sans-serif;
-    transition: transform .1s; }
-    header div ul li a p:hover {
-      color: #27403D;
-      transform: translateX(0.5px); }
-    @media screen and (max-width: 361px) {
-      header div ul li a p {
-        font-size: 1.2rem; } }
-    @media screen and (max-width: 687px) and (min-width: 362px) {
-      header div ul li a p {
-        font-size: 1.3rem; } }
-    @media screen and (min-width: 688px) and (max-width: 900px) {
-      header div ul li a p {
-        font-size: 1.5rem; } }
-    @media screen and (min-width: 901px) and (max-width: 1110px) {
-      header div ul li a p {
-        font-size: 1.5rem; } }
-    @media screen and (min-width: 1111px) and (max-width: 1199px) {
-      header div ul li a p {
-        font-size: 1.6rem; } }
-    @media screen and (min-width: 1200px) and (max-width: 1350px) {
-      header div ul li a p {
-        font-size: 1.7rem; } }
+  header div ul li a {
+    margin-bottom: .5rem; }
+    header div ul li a p {
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: #151414;
+      font-family: "Oswald", sans-serif;
+      transition: transform .1s; }
+      header div ul li a p:hover {
+        color: #27403D;
+        transform: translateX(0.5px); }
+      @media screen and (max-width: 361px) {
+        header div ul li a p {
+          font-size: 1.2rem; } }
+      @media screen and (max-width: 687px) and (min-width: 362px) {
+        header div ul li a p {
+          font-size: 1.3rem; } }
+      @media screen and (min-width: 688px) and (max-width: 900px) {
+        header div ul li a p {
+          font-size: 1.5rem; } }
+      @media screen and (min-width: 901px) and (max-width: 1110px) {
+        header div ul li a p {
+          font-size: 1.5rem; } }
+      @media screen and (min-width: 1111px) and (max-width: 1199px) {
+        header div ul li a p {
+          font-size: 1.6rem; } }
+      @media screen and (min-width: 1200px) and (max-width: 1350px) {
+        header div ul li a p {
+          font-size: 1.7rem; } }
 
 /**CLASES**/
 .botones-casita {
@@ -8273,7 +8275,7 @@ footer {
         font-size: 1.7rem; } }
   footer h4, footer .h4 {
     font-size: 1.3rem;
-    font-weight: 100;
+    font-weight: 200;
     color: #151414;
     font-family: "Oswald", sans-serif; }
     @media screen and (max-width: 361px) {

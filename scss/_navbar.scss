@@ -32,31 +32,34 @@ header{
             font-size: 7rem;
         }
     }
-    div ul li a p{
-        @include texto(1.8rem,100,map-get($map:$paleta, $key: 'black'));
-        font-family: $fuga;
-        transition: transform .1s;
-        &:hover{
-            color: map-get($map:$paleta, $key: 'third');
-            transform: translateX(.5px);
-        }
-        @include cel{
-            font-size: 1.2rem;
-        }
-        @media screen and (max-width: 687px) and (min-width: 362px){
-            font-size: 1.3rem;
-        }
-        @include tablet-xl{
-            font-size: 1.5rem;
-        }
-        @include desktop{
-            font-size: 1.5rem;
-        }
-        @media screen and (min-width: 1111px) and (max-width: 1199px){
-            font-size: 1.6rem;
-        }
-        @media screen and (min-width: 1200px) and (max-width: 1350px){
-            font-size: 1.7rem;
+    div ul li a{
+        margin-bottom: .5rem;
+        p{
+            @include texto(1.8rem,300,map-get($map:$paleta, $key: 'black'));
+            font-family: $fuga;
+            transition: transform .1s;
+            &:hover{
+                color: map-get($map:$paleta, $key: 'third');
+                transform: translateX(.5px);
+            }
+            @include cel{
+                font-size: 1.2rem;
+            }
+            @media screen and (max-width: 687px) and (min-width: 362px){
+                font-size: 1.3rem;
+            }
+            @include tablet-xl{
+                font-size: 1.5rem;
+            }
+            @include desktop{
+                font-size: 1.5rem;
+            }
+            @media screen and (min-width: 1111px) and (max-width: 1199px){
+                font-size: 1.6rem;
+            }
+            @media screen and (min-width: 1200px) and (max-width: 1350px){
+                font-size: 1.7rem;
+            }
         }
     }
 }

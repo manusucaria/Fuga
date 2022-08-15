@@ -30,7 +30,7 @@ footer{
         }
     }
     h4{
-        @include texto(1.3rem,100,map-get($map:$paleta, $key: 'black'));
+        @include texto(1.3rem,200,map-get($map:$paleta, $key: 'black'));
         font-family: $fuga;
         @include cel{
             font-size: 0.8rem;
