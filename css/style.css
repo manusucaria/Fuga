@@ -7976,7 +7976,7 @@ header {
         font-size: 7rem; } }
   header div ul li a p {
     font-size: 1.8rem;
-    font-weight: 500;
+    font-weight: 100;
     color: #151414;
     font-family: "Oswald", sans-serif;
     transition: transform .1s; }
@@ -8273,7 +8273,7 @@ footer {
         font-size: 1.7rem; } }
   footer h4, footer .h4 {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 100;
     color: #151414;
     font-family: "Oswald", sans-serif; }
     @media screen and (max-width: 361px) {
