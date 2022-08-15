@@ -35,7 +35,7 @@ header{
     div ul li a{
         margin-bottom: .5rem;
         p{
-            @include texto(1.8rem,300,map-get($map:$paleta, $key: 'black'));
+            @include texto(1.8rem,400,map-get($map:$paleta, $key: 'black'));
             font-family: $fuga;
             transition: transform .1s;
             &:hover{
