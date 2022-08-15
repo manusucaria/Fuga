@@ -50,43 +50,45 @@
             </nav>
         </header>
             <!--MAIN-->
-        <main class="d-flex flex-column">
+        <main>
             <!-- inicia form -->
-            <div class="animation-carrito">
-                <section>
-                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdeCXWcGuWpwgaHeC8n4l-n3wgPrmTiB1TIo_P0GY84CtIi9w/formResponse" method="post">
-                        <fieldset class="form-fondo mx-auto p-5 d-flex flex-column">
-                            <label class="me-auto mb-3 mt-5">Nombre y Apellido</label>
-                            <input class="w-100 px-2 py-2" type="text" name="entry.1305494716" placeholder="Ingresa tu Nombre" required>
-                            <label class="me-auto mt-5 mb-3">Dirección de Email</label>
-                            <input class="w-100 px-2 py-2" type="email" name="entry.141436261" placeholder="email@gmail.com" required>
-                            <label class="me-auto mt-5 mb-3">Teléfono</label>
-                            <input class="w-100 px-2 py-2" type="tel" name="entry.561535156"  placeholder="1156323465" required>
-                            <label class="me-auto mt-5 mb-3">Ubicación</label>
-                            <select class="w-100" name="entry.1174120271" id="provincia" aria-label="Ubicacion" required>
-                                <option selected class="p-2">Buenos Aires</option>
-                                <option value="1">Córdoba</option>
-                                <option value="2">Santa Fe</option>
-                                <option value="3">Otra Provincia</option>
-                            </select>
-                            <label class="me-auto mt-5 mb-3" for="product">Pedido</label>
-                            <input class="w-100 px-2 py-2" type="text" name="entry.622438233" id="product" placeholder="Ingresa el/los modelo/s que te interesan" required>
-                            <label class="me-auto mt-5 mb-3" for="product">Talle y Preferencias</label>
-                            <textarea class="w-100 px-2 py-2" name="entry.1229127110" id="product" placeholder="Decinos tu Talle y Preferencias" cols="20" rows="4" required></textarea>
-                            <section class="d-flex flex-row mt-5 mb-4">
-                                <input class="w-50 me-1 botones-enviar" type="submit" target="_blank" value="Enviar">
-                                <input class="w-50 ms-1 botones-enviar" type="reset" value="Cancelar">
-                            </section>
-                        </fieldset>
-                    </form>
-                </section>
-            </div>
-            <!-- ends form -->
-            <div class="animation-carrito">
-                <section class="mx-auto form-fondo p-5 ubicacion d-flex flex-column">
-                    <h4 class="mx-auto p-4 titulo-mapa">De Donde Somos</h4>
-                    <iframe class="mx-auto w-100 py-4 mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13169.335839987958!2d-58.7468097!3d-34.3928566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca0212f1c9487%3A0x7cb0684a8144f24!2sLas%20Clavelinas%20-%20Hotel%20y%20Eventos!5e0!3m2!1ses-419!2sar!4v1653402769762!5m2!1ses-419!2sar" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </section>
+            <div class="d-flex-flex-column">
+                <div class="animation-carrito form-fondo mx-auto">
+                    <section>
+                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdeCXWcGuWpwgaHeC8n4l-n3wgPrmTiB1TIo_P0GY84CtIi9w/formResponse" method="post">
+                            <fieldset class="mx-auto p-5 d-flex flex-column">
+                                <label class="me-auto mb-3 mt-5">Nombre y Apellido</label>
+                                <input class="w-100 px-2 py-2" type="text" name="entry.1305494716" placeholder="Ingresa tu Nombre" required>
+                                <label class="me-auto mt-5 mb-3">Dirección de Email</label>
+                                <input class="w-100 px-2 py-2" type="email" name="entry.141436261" placeholder="email@gmail.com" required>
+                                <label class="me-auto mt-5 mb-3">Teléfono</label>
+                                <input class="w-100 px-2 py-2" type="tel" name="entry.561535156"  placeholder="1156323465" required>
+                                <label class="me-auto mt-5 mb-3">Ubicación</label>
+                                <select class="w-100" name="entry.1174120271" id="provincia" aria-label="Ubicacion" required>
+                                    <option selected class="p-2">Buenos Aires</option>
+                                    <option value="1">Córdoba</option>
+                                    <option value="2">Santa Fe</option>
+                                    <option value="3">Otra Provincia</option>
+                                </select>
+                                <label class="me-auto mt-5 mb-3" for="product">Pedido</label>
+                                <input class="w-100 px-2 py-2" type="text" name="entry.622438233" id="product" placeholder="Ingresa el/los modelo/s que te interesan" required>
+                                <label class="me-auto mt-5 mb-3" for="product">Talle y Preferencias</label>
+                                <textarea class="w-100 px-2 py-2" name="entry.1229127110" id="product" placeholder="Decinos tu Talle y Preferencias" cols="20" rows="4" required></textarea>
+                                <section class="d-flex flex-row mt-5 mb-4">
+                                    <input class="w-50 me-1 botones-enviar" type="submit" target="_blank" value="Enviar">
+                                    <input class="w-50 ms-1 botones-enviar" type="reset" value="Cancelar">
+                                </section>
+                            </fieldset>
+                        </form>
+                    </section>
+                </div>
+                <!-- ends form -->
+                <div class="animation-carrito ubicacion form-fondo mx-auto">
+                    <section class="mx-autop-5 d-flex flex-column">
+                        <h4 class="mx-auto p-4 titulo-mapa">De Donde Somos</h4>
+                        <iframe class="mx-auto w-100 py-4 mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13169.335839987958!2d-58.7468097!3d-34.3928566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca0212f1c9487%3A0x7cb0684a8144f24!2sLas%20Clavelinas%20-%20Hotel%20y%20Eventos!5e0!3m2!1ses-419!2sar!4v1653402769762!5m2!1ses-419!2sar" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+                </div>
             </div>
         </main>
         <!--FOOTER-->

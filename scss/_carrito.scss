@@ -1,9 +1,9 @@
 @keyframes animateDiv{
-    0%{background:linear-gradient(to top map-get($map:$paleta, $key: 'fondo'), map-get($map:$paleta, $key: 'main'))}
-    25%{background:linear-gradient(to right, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
-    50%{background:linear-gradient(to bottom, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'secondary'))}
-    75%{background:linear-gradient(to left, map-get($map:$paleta, $key: 'secondary'), map-get($map:$paleta, $key: 'main'))}
-    100%{background:linear-gradient(to top, map-get($map:$paleta, $key: 'main'), map-get($map:$paleta, $key: 'fondo'))}
+    0%{background:linear-gradient(to top map-get($map:$paleta, $key: 'fondo'), map-get($map:$paleta, $key: 'white'))}
+    25%{background:linear-gradient(to right, map-get($map:$paleta, $key: 'hovers2'), map-get($map:$paleta, $key: 'white'))}
+    50%{background:linear-gradient(to bottom, map-get($map:$paleta, $key: 'white'), map-get($map:$paleta, $key: 'hovers2'))}
+    75%{background:linear-gradient(to left, map-get($map:$paleta, $key: 'hovers2'), map-get($map:$paleta, $key: 'white'))}
+    100%{background:linear-gradient(to top, map-get($map:$paleta, $key: 'white'), map-get($map:$paleta, $key: 'fondo'))}
 }
 main section form fieldset{
     border-color: transparent;
@@ -11,8 +11,8 @@ main section form fieldset{
         @include texto(2.5rem, 400, map-get($map:$paleta, $key: 'black'));
         background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
-        border: 1px solid $borders2;
-        border-bottom: map-get($map:$paleta, $key: 'forth') solid 1px;
+        border: .5px solid $borders2;
+        border-bottom: map-get($map:$paleta, $key: 'forth') solid .5px;
         @include cel{
             font-size: 1.5rem;
         }
@@ -53,8 +53,8 @@ main section form fieldset{
         height: 5rem;
         cursor: pointer;
         opacity: .9;
-        border: 1px solid $borders2;
-        border-bottom: map-get($map:$paleta, $key: 'forth') solid 1px;
+        border: .5px solid $borders2;
+        border-bottom: map-get($map:$paleta, $key: 'forth') solid .5px;
         @include cel{
             font-size: 1.5rem;
         }
@@ -78,8 +78,8 @@ main section form fieldset{
         input{
             @include texto(2.5rem, 400, map-get($map:$paleta, $key: 'black'));
             opacity: .9;
-            border: 1px solid $borders2;
-            border-bottom: map-get($map:$paleta, $key: 'forth') solid 1px;
+            border: .5px solid $borders2;
+            border-bottom: map-get($map:$paleta, $key: 'forth') solid .5px;
             @include cel{
                 font-size: 1.5rem;
             }
@@ -109,8 +109,8 @@ main section form fieldset{
         @include texto(2.5rem, 400, map-get($map:$paleta, $key: 'black'));
         background-color: map-get($map:$paleta, $key: 'white');
         opacity: .9;
-        border: 1px solid $borders2;
-        border-bottom: map-get($map:$paleta, $key: 'forth') solid 1px;
+        border: .5 solid $borders2;
+        border-bottom: map-get($map:$paleta, $key: 'forth') solid .5px;
         @include cel{
             font-size: 1.5rem;
         }
@@ -201,13 +201,9 @@ main section form fieldset{
 .botones-enviar{
     cursor: pointer;
 }
-.checkbox{
-    @extend .botones-enviar;
-    border-radius: 0%;
-}
 @keyframes animateCarrito{
     0%{transform: translateX(0px);}
-    50%{transform: translateX(5px);}
+    50%{transform: translateX(3px);}
     100%{transform: translateX(0px);}
 }
 .animation-carrito{
@@ -219,13 +215,4 @@ main section form fieldset{
 }
 .mapa{
     min-height: 35vh;
-    @include cel{
-        width: 100%;
-    }
-    @include smart{
-        width: 90%;
-    }
-    @include tablet{
-        width: 90%;
-    }
 }

@@ -8092,48 +8092,28 @@ header {
 .margin-index {
   margin-top: 0; }
 
-/**CATEGORIAS**/
-.titulo-categorias {
-  margin: 5rem 0;
-  font-size: 3.5rem;
-  font-weight: 400;
-  color: #151414;
-  font-family: "Poor Richard", sans-serif; }
-  @media screen and (max-width: 361px) {
-    .titulo-categorias {
-      font-size: 4.5rem; } }
-  @media screen and (max-width: 687px) and (min-width: 362px) {
-    .titulo-categorias {
-      font-size: 5.5rem; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    .titulo-categorias {
-      font-size: 3.3rem; } }
-  @media screen and (min-width: 901px) and (max-width: 1110px) {
-    .titulo-categorias {
-      font-size: 3rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1350px) {
-    .titulo-categorias {
-      font-size: 2.8rem; } }
-
 .articulo-1 {
   margin-top: 3rem;
   margin-bottom: 10rem;
   width: 60%; }
   @media screen and (max-width: 361px) {
     .articulo-1 {
+      margin-top: 0;
       width: 100%;
       margin-bottom: 0; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .articulo-1 {
+      margin-top: 0;
       width: 100%;
       margin-bottom: 0; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .articulo-1 {
-      width: 65%;
+      margin-top: 1rem;
+      width: 75%;
       margin-bottom: 7rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .articulo-1 {
-      width: 60%;
+      width: 70%;
       margin-bottom: 8rem; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .articulo-1 {
@@ -8174,16 +8154,19 @@ header {
       justify-content: center;
       flex-direction: row;
       margin-bottom: 0; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .articulo-3 {
+      margin-bottom: 2rem; } }
 
 .img-art-1 {
   min-height: 30vh;
   object-fit: cover; }
   @media screen and (max-width: 361px) {
     .img-art-1 {
-      height: 65vh; } }
+      height: 85vh; } }
   @media screen and (max-width: 687px) and (min-width: 362px) {
     .img-art-1 {
-      height: 65vh; } }
+      height: 70vh; } }
 
 .img1-art-2 {
   max-height: 60vh;
@@ -8231,6 +8214,9 @@ header {
     .img1-art-3 {
       width: 50%;
       height: 75vh; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img1-art-3 {
+      width: 40%; } }
 
 .img2-art-3 {
   object-fit: cover;
@@ -8243,6 +8229,9 @@ header {
     .img2-art-3 {
       width: 50%;
       height: 75vh; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img2-art-3 {
+      width: 40%; } }
 
 footer {
   margin-top: auto;
@@ -8338,15 +8327,15 @@ footer {
 
 @keyframes animateDiv {
   0% {
-    background: linear-gradient(to top #F2F1E9, #383146); }
+    background: linear-gradient(to top #F2F1E9, #ffffff); }
   25% {
-    background: linear-gradient(to right, #63577a, #383146); }
+    background: linear-gradient(to right, , #ffffff); }
   50% {
-    background: linear-gradient(to bottom, #383146, #63577a); }
+    background: linear-gradient(to bottom, #ffffff, ); }
   75% {
-    background: linear-gradient(to left, #63577a, #383146); }
+    background: linear-gradient(to left, , #ffffff); }
   100% {
-    background: linear-gradient(to top, #383146, #F2F1E9); } }
+    background: linear-gradient(to top, #ffffff, #F2F1E9); } }
 
 main section form fieldset {
   border-color: transparent; }
@@ -8356,8 +8345,8 @@ main section form fieldset {
     color: #151414;
     background-color: #ffffff;
     opacity: .9;
-    border: 1px solid #171716;
-    border-bottom: solid 1px; }
+    border: 0.5px solid #171716;
+    border-bottom: solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset input {
         font-size: 1.5rem; } }
@@ -8400,8 +8389,8 @@ main section form fieldset {
     height: 5rem;
     cursor: pointer;
     opacity: .9;
-    border: 1px solid #171716;
-    border-bottom: solid 1px; }
+    border: 0.5px solid #171716;
+    border-bottom: solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset select {
         font-size: 1.5rem; } }
@@ -8426,8 +8415,8 @@ main section form fieldset {
     font-weight: 400;
     color: #151414;
     opacity: .9;
-    border: 1px solid #171716;
-    border-bottom: solid 1px; }
+    border: 0.5px solid #171716;
+    border-bottom: solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset section input {
         font-size: 1.5rem; } }
@@ -8456,8 +8445,8 @@ main section form fieldset {
     color: #151414;
     background-color: #ffffff;
     opacity: .9;
-    border: 1px solid #171716;
-    border-bottom: solid 1px; }
+    border: 0.5 solid #171716;
+    border-bottom: solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset textarea {
         font-size: 1.5rem; } }
@@ -8546,17 +8535,14 @@ main section form fieldset {
     .ubicacion {
       margin-top: 3rem; } }
 
-.botones-enviar, .checkbox {
+.botones-enviar {
   cursor: pointer; }
-
-.checkbox {
-  border-radius: 0%; }
 
 @keyframes animateCarrito {
   0% {
     transform: translateX(0px); }
   50% {
-    transform: translateX(5px); }
+    transform: translateX(3px); }
   100% {
     transform: translateX(0px); } }
 
@@ -8569,15 +8555,6 @@ main section form fieldset {
 
 .mapa {
   min-height: 35vh; }
-  @media screen and (max-width: 361px) {
-    .mapa {
-      width: 100%; } }
-  @media screen and (max-width: 450px) and (min-width: 362px) {
-    .mapa {
-      width: 90%; } }
-  @media screen and (max-width: 687px) and (min-width: 451px) {
-    .mapa {
-      width: 90%; } }
 
 /**CLASES NOSOTROS**/
 .main-nos {
