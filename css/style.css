@@ -1,6 +1,5 @@
 /** COLOR **/
 /**TOGGLER**/
-/**CARD**/
 /**CARRITO**/
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -3470,9 +3469,9 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #F2F1E9;
+  background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(242, 241, 233, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
   .card > hr {
     margin-right: 0;
@@ -3513,14 +3512,14 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(242, 241, 233, 0.125); }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
   .card-header:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; }
 
 .card-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(242, 241, 233, 0.125); }
+  border-top: 1px solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 
@@ -3529,9 +3528,6 @@ textarea.form-control-lg {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0; }
-  .card-header-tabs .nav-link.active {
-    background-color: #F2F1E9;
-    border-bottom-color: #F2F1E9; }
 
 .card-header-pills {
   margin-right: -0.5rem;
@@ -8016,28 +8012,28 @@ header {
     transform: translateX(0.5px); }
   @media screen and (max-width: 361px) {
     .botones-casita {
-      height: 22px;
-      width: 22px; } }
+      height: 28px;
+      width: 28px; } }
   @media screen and (max-width: 450px) and (min-width: 362px) {
-    .botones-casita {
-      height: 28px;
-      width: 28px; } }
-  @media screen and (max-width: 687px) and (min-width: 451px) {
-    .botones-casita {
-      height: 28px;
-      width: 28px; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    .botones-casita {
-      height: 28px;
-      width: 28px; } }
-  @media screen and (min-width: 901px) and (max-width: 1110px) {
-    .botones-casita {
-      height: 30px;
-      width: 30px; } }
-  @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .botones-casita {
       height: 33px;
       width: 33px; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .botones-casita {
+      height: 30px;
+      width: 30px; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .botones-casita {
+      height: 32px;
+      width: 32px; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .botones-casita {
+      height: 34px;
+      width: 34px; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .botones-casita {
+      height: 37px;
+      width: 37px; } }
 
 .botones {
   height: 23px;
@@ -8047,26 +8043,32 @@ header {
     transform: translateX(0.5px); }
   @media screen and (max-width: 361px) {
     .botones {
-      height: 15px;
-      width: 15px; } }
+      margin-bottom: .3rem;
+      height: 16px;
+      width: 16px; } }
   @media screen and (max-width: 450px) and (min-width: 362px) {
     .botones {
+      margin-bottom: .3rem;
       height: 19px;
       width: 19px; } }
   @media screen and (max-width: 687px) and (min-width: 451px) {
     .botones {
+      margin-bottom: .3rem;
       height: 18px;
       width: 18px; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .botones {
+      margin-bottom: .3rem;
       height: 18px;
       width: 18px; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .botones {
+      margin-bottom: .3rem;
       height: 20px;
       width: 20px; } }
   @media screen and (min-width: 1111px) and (max-width: 1350px) {
     .botones {
+      margin-bottom: .3rem;
       height: 22px;
       width: 22px; } }
 
@@ -8082,7 +8084,7 @@ header {
 .grid-nav {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: auto; }
+  grid-template-rows: 1 auto; }
 
 .grid-hamburguesa {
   grid-column: 1/2;
@@ -8152,8 +8154,7 @@ header {
 .articulo-3 {
   width: 100%;
   display: flex;
-  justify-content: center;
-  margin-bottom: 5rem; }
+  justify-content: center; }
   @media screen and (max-width: 361px) {
     .articulo-3 {
       flex-direction: column;
@@ -8163,9 +8164,6 @@ header {
       justify-content: center;
       flex-direction: row;
       margin-bottom: 0; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    .articulo-3 {
-      margin-bottom: 2rem; } }
 
 .img-art-1 {
   min-height: 30vh;
@@ -8402,23 +8400,43 @@ main section form fieldset {
     border-bottom: solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset select {
-        font-size: 1.5rem; } }
+        font-size: 1.5rem;
+        height: 3.6rem; } }
     @media screen and (max-width: 687px) and (min-width: 362px) {
       main section form fieldset select {
-        font-size: 1.8rem; } }
+        font-size: 1.8rem;
+        height: 4rem; } }
     @media screen and (min-width: 688px) and (max-width: 900px) {
       main section form fieldset select {
-        font-size: 2.1rem; } }
+        font-size: 2.1rem;
+        height: 4.3rem; } }
     @media screen and (min-width: 901px) and (max-width: 1110px) {
       main section form fieldset select {
-        font-size: 2.2rem; } }
+        font-size: 2.2rem;
+        height: 4.7rem; } }
     @media screen and (min-width: 1111px) and (max-width: 1350px) {
       main section form fieldset select {
-        font-size: 2.3rem; } }
+        font-size: 2.3rem;
+        height: 5rem; } }
     main section form fieldset select option {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       font-weight: 300;
       color: #151414; }
+      @media screen and (max-width: 361px) {
+        main section form fieldset select option {
+          font-size: 1.4rem; } }
+      @media screen and (max-width: 687px) and (min-width: 362px) {
+        main section form fieldset select option {
+          font-size: 1.7rem; } }
+      @media screen and (min-width: 688px) and (max-width: 900px) {
+        main section form fieldset select option {
+          font-size: 2rem; } }
+      @media screen and (min-width: 901px) and (max-width: 1110px) {
+        main section form fieldset select option {
+          font-size: 2.1rem; } }
+      @media screen and (min-width: 1111px) and (max-width: 1350px) {
+        main section form fieldset select option {
+          font-size: 2.2rem; } }
   main section form fieldset section input {
     font-size: 2.5rem;
     font-weight: 400;
@@ -8524,13 +8542,22 @@ main section form fieldset {
   width: 70%; }
   @media screen and (max-width: 361px) {
     .form-fondo {
-      width: 90%; } }
+      width: 85%; } }
   @media screen and (max-width: 450px) and (min-width: 362px) {
     .form-fondo {
-      width: 90%; } }
+      width: 85%; } }
   @media screen and (max-width: 687px) and (min-width: 451px) {
     .form-fondo {
       width: 90%; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .form-fondo {
+      width: 85%; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .form-fondo {
+      width: 80%; } }
+  @media screen and (min-width: 1111px) and (max-width: 1350px) {
+    .form-fondo {
+      width: 75%; } }
 
 .ubicacion {
   margin-top: 5rem; }
@@ -8551,7 +8578,7 @@ main section form fieldset {
   0% {
     transform: translateX(0px); }
   50% {
-    transform: translateX(3px); }
+    transform: translateX(4px); }
   100% {
     transform: translateX(0px); } }
 

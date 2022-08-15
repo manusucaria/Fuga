@@ -54,7 +54,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
     @include cel{
         flex-direction: column;
         margin-bottom: 0;
@@ -63,9 +62,6 @@
         justify-content: center;
         flex-direction: row;
         margin-bottom: 0;
-    }
-    @include tablet-xl{
-        margin-bottom: 2rem;
     }
 }
 .img-art-1{
