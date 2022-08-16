@@ -3,10 +3,6 @@
     font-family: $fuga;
     margin-bottom: 1rem;
     transition: transform .1s;
-    &:hover{
-        color: map-get($map:$paleta, $key: 'third');
-        transform: translateX(.5px);
-    }
     @include cel{
         font-size: 1.2rem;
     }

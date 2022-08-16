@@ -7935,7 +7935,7 @@ a {
 
 main {
   margin-top: 3rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 4rem; }
 
 .main-img:hover {
   transform: scale(1.03);
@@ -7954,7 +7954,7 @@ header {
     font-family: "Oswald", sans-serif;
     transition: transform .1s; }
     header h1:hover, header .h1:hover {
-      color: #27403D;
+      color: #403b3b;
       transform: translateX(0.5px); }
     @media screen and (max-width: 360px) {
       header h1, header .h1 {
@@ -7983,7 +7983,7 @@ header {
       font-family: "Oswald", sans-serif;
       transition: transform .1s; }
       header div ul li a p:hover {
-        color: #27403D;
+        color: #403b3b;
         transform: translateX(0.5px); }
       @media screen and (max-width: 361px) {
         header div ul li a p {
@@ -8253,7 +8253,7 @@ footer {
     font-family: "Oswald", sans-serif;
     transition: transform .1s; }
     footer p:hover {
-      color: #27403D;
+      color: #403b3b;
       transform: translateX(0.3px); }
     @media screen and (max-width: 361px) {
       footer p {
@@ -8360,7 +8360,7 @@ footer {
 
 @keyframes animateDiv {
   0% {
-    background: linear-gradient(to top #F2F1E9, #ffffff); }
+    background: linear-gradient(to top, #ffffff); }
   25% {
     background: linear-gradient(to right, , #ffffff); }
   50% {
@@ -8368,7 +8368,7 @@ footer {
   75% {
     background: linear-gradient(to left, , #ffffff); }
   100% {
-    background: linear-gradient(to top, #ffffff, #F2F1E9); } }
+    background: linear-gradient(to top, #ffffff, ); } }
 
 main section form fieldset {
   border-color: transparent; }
@@ -8379,7 +8379,7 @@ main section form fieldset {
     background-color: #ffffff;
     opacity: .9;
     border: 0.5px solid #171716;
-    border-bottom: solid 0.5px; }
+    border-bottom: #6c4242 solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset input {
         font-size: 1.5rem; } }
@@ -8423,7 +8423,7 @@ main section form fieldset {
     cursor: pointer;
     opacity: .9;
     border: 0.5px solid #171716;
-    border-bottom: solid 0.5px; }
+    border-bottom: #6c4242 solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset select {
         font-size: 1.5rem;
@@ -8469,7 +8469,7 @@ main section form fieldset {
     color: #151414;
     opacity: .9;
     border: 0.5px solid #171716;
-    border-bottom: solid 0.5px; }
+    border-bottom: #6c4242 solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset section input {
         font-size: 1.5rem; } }
@@ -8499,7 +8499,7 @@ main section form fieldset {
     background-color: #ffffff;
     opacity: .9;
     border: 0.5 solid #171716;
-    border-bottom: solid 0.5px; }
+    border-bottom: #6c4242 solid 0.5px; }
     @media screen and (max-width: 361px) {
       main section form fieldset textarea {
         font-size: 1.5rem; } }
@@ -8520,7 +8520,8 @@ main section form fieldset {
     font-weight: 300;
     color: #151414;
     background-color: #ffffff;
-    border-radius: 15%; }
+    border-radius: 15%;
+    border-bottom: #6c4242 solid 0.5px; }
   main section form fieldset div label {
     font-size: 2.3rem;
     font-weight: 300;
@@ -8662,9 +8663,6 @@ main section form fieldset {
   font-family: "Oswald", sans-serif;
   margin-bottom: 1rem;
   transition: transform .1s; }
-  .titulos-feria:hover {
-    color: #27403D;
-    transform: translateX(0.5px); }
   @media screen and (max-width: 361px) {
     .titulos-feria {
       font-size: 1.2rem; } }
