@@ -8244,6 +8244,8 @@ header {
 
 footer {
   margin-top: auto;
+  position: sticky;
+  bottom: 0;
   background-color: #ffffff;
   width: 100%; }
   footer p {
@@ -8251,7 +8253,8 @@ footer {
     font-weight: 400;
     color: #151414;
     font-family: "Oswald", sans-serif;
-    transition: transform .1s; }
+    transition: transform .1s;
+    margin-top: 1rem; }
     footer p:hover {
       color: #403b3b;
       transform: translateX(0.3px); }
