@@ -8310,6 +8310,30 @@ footer {
 .copyright {
   height: 2rem;
   width: 2rem; }
+  @media screen and (max-width: 361px) {
+    .copyright {
+      height: 1rem;
+      width: 1rem; } }
+  @media screen and (max-width: 687px) and (min-width: 362px) {
+    .copyright {
+      height: 1.3rem;
+      width: 1.3rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .copyright {
+      height: 1.5rem;
+      width: 1.5rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .copyright {
+      height: 2rem;
+      width: 2rem; } }
+  @media screen and (min-width: 1111px) and (max-width: 1199px) {
+    .copyright {
+      height: 2rem;
+      width: 2rem; } }
+  @media screen and (min-width: 1200px) and (max-width: 1350px) {
+    .copyright {
+      height: 2rem;
+      width: 2rem; } }
 
 /**GRID FOOTER**/
 .grid-footer {
@@ -8631,50 +8655,30 @@ main section form fieldset {
     .w-nos {
       width: 80%; } }
 
-.titulo-nosotros {
-  padding: 2rem;
-  margin: 2rem 0;
-  font-size: 4.3rem;
-  font-weight: 500;
-  color: #ffffff;
-  margin-top: 2rem;
-  margin-bottom: 4rem; }
-  @media screen and (max-width: 361px) {
-    .titulo-nosotros {
-      font-size: 7.5rem; } }
-  @media screen and (max-width: 687px) and (min-width: 362px) {
-    .titulo-nosotros {
-      font-size: 7.3rem; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    .titulo-nosotros {
-      font-size: 3.7rem; } }
-  @media screen and (min-width: 901px) and (max-width: 1110px) {
-    .titulo-nosotros {
-      font-size: 3.8rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1350px) {
-    .titulo-nosotros {
-      font-size: 3.9rem; } }
+.grid-feria {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
 
-.texto-nosotros {
-  padding: 2rem 4rem;
-  font-size: 3.5rem;
-  font-weight: 400;
-  color: #ffffff; }
-  @media screen and (max-width: 450px) {
-    .texto-nosotros {
-      font-size: 6.5rem; } }
-  @media screen and (max-width: 687px) and (min-width: 451px) {
-    .texto-nosotros {
-      font-size: 6.3rem; } }
-  @media screen and (min-width: 688px) and (max-width: 900px) {
-    .texto-nosotros {
-      font-size: 3.1rem; } }
-  @media screen and (min-width: 901px) and (max-width: 1110px) {
-    .texto-nosotros {
-      font-size: 3.4rem; } }
-  @media screen and (min-width: 1111px) and (max-width: 1350px) {
-    .texto-nosotros {
-      font-size: 3.3rem; } }
+.feria-1 {
+  grid-column: 1/2;
+  grid-row: 1/2; }
+
+.feria-2 {
+  grid-column: 3/4;
+  grid-row: 1/2; }
+
+.feria-3 {
+  grid-column: 5/6;
+  grid-row: 1/2; }
+
+.feria-4 {
+  grid-column: 2/3;
+  grid-row: 2/3; }
+
+.feria-5 {
+  grid-column: 4/5;
+  grid-row: 2/3; }
 
 .texto-404 {
   font-size: 2.6rem;

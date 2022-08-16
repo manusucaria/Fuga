@@ -1,0 +1,25 @@
+.grid-feria{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.feria-1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.feria-2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.feria-3{
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+.feria-4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.feria-5{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}

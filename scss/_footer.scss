@@ -67,6 +67,30 @@ footer{
 .copyright{
     height: 2rem;
     width: 2rem;
+    @include cel{
+        height: 1rem;
+        width: 1rem;
+    }
+    @media screen and (max-width: 687px) and (min-width: 362px){
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    @include tablet-xl{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    @include desktop{
+        height: 2rem;
+        width: 2rem;
+    }
+    @media screen and (min-width: 1111px) and (max-width: 1199px){
+        height: 2rem;
+        width: 2rem;
+    }
+    @media screen and (min-width: 1200px) and (max-width: 1350px){
+        height: 2rem;
+        width: 2rem;;
+    }
 }
 /**GRID FOOTER**/
 .grid-footer{
