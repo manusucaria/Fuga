@@ -176,6 +176,41 @@ main section form fieldset{
         }
     }
 }
+.img-wa {
+    position: fixed;
+    bottom: .1rem;
+    right: .1rem;
+    margin-top: auto;
+    margin-right: 2px;
+    margin-bottom: 6px;
+    height: 7rem;
+    width: 7rem;
+
+    @include cel {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+
+    @include smart {
+        height: 4.7rem;
+        width: 4.7rem;
+    }
+
+    @include tablet {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    @include tablet-xl {
+        height: 5.5rem;
+        width: 5.5rem;
+    }
+
+    &:hover {
+        transform: scale(1.04);
+        transition: transform .6s ease;
+    }
+}
 /**CLASES CARRITO**/
 .titulo-mapa{
     @include texto(2.6rem,400,map-get($map:$paleta, $key: 'black'));

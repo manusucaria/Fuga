@@ -8242,9 +8242,38 @@ header {
     .img2-art-3 {
       width: 40%; } }
 
-footer {
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
   margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
+
+footer {
   position: sticky;
+  top: auto;
   bottom: 0;
   background-color: #ffffff;
   width: 100%; }
@@ -8547,6 +8576,35 @@ main section form fieldset {
       main section form fieldset div label {
         font-size: 2.4rem; } }
 
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
+  margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
+
 /**CLASES CARRITO**/
 .titulo-mapa {
   font-size: 2.6rem;
@@ -8659,6 +8717,35 @@ main section form fieldset {
     .w-nos {
       width: 80%; } }
 
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
+  margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
+
 .titulos-feria {
   font-size: 1.8rem;
   font-weight: 400;
@@ -8688,27 +8775,27 @@ main section form fieldset {
 .grid-feria {
   display: grid;
   grid-template-columns: repeat(6, auto);
-  grid-template-rows: repeat(2, auto); }
+  grid-template-rows: repeat(4, auto); }
   @media screen and (max-width: 361px) {
     .grid-feria {
       grid-template-columns: auto;
-      grid-template-rows: repeat(5, auto); } }
+      grid-template-rows: repeat(10, auto); } }
   @media screen and (max-width: 450px) and (min-width: 362px) {
     .grid-feria {
       grid-template-columns: auto;
-      grid-template-rows: repeat(5, auto); } }
+      grid-template-rows: repeat(10, auto); } }
   @media screen and (max-width: 687px) and (min-width: 451px) {
     .grid-feria {
       grid-template-columns: repeat(4, auto);
-      grid-template-rows: repeat(3, auto); } }
+      grid-template-rows: repeat(5, auto); } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .grid-feria {
       grid-template-columns: repeat(4, auto);
-      grid-template-rows: repeat(3, auto); } }
+      grid-template-rows: repeat(5, auto); } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .grid-feria {
       grid-template-columns: repeat(4, auto);
-      grid-template-rows: repeat(3, auto); } }
+      grid-template-rows: repeat(5, auto); } }
 
 .feria-1 {
   border: none;
@@ -8821,7 +8908,7 @@ main section form fieldset {
 .feria-4 {
   border: none;
   margin: 1rem;
-  grid-column: 2/4;
+  grid-column: 1/3;
   grid-row: 2/3;
   padding-right: .5rem; }
   @media screen and (max-width: 361px) {
@@ -8856,7 +8943,7 @@ main section form fieldset {
 .feria-5 {
   border: none;
   margin: 1rem;
-  grid-column: 4/6;
+  grid-column: 3/5;
   grid-row: 2/3;
   padding-left: .5rem; }
   @media screen and (max-width: 361px) {
@@ -8871,22 +8958,229 @@ main section form fieldset {
       padding: 0; } }
   @media screen and (max-width: 687px) and (min-width: 451px) {
     .feria-5 {
-      grid-column: 2/4;
+      grid-column: 1/3;
       grid-row: 3/4;
       padding-left: .5rem;
       padding-right: .5rem; } }
   @media screen and (min-width: 688px) and (max-width: 900px) {
     .feria-5 {
-      grid-column: 2/4;
+      grid-column: 1/3;
       grid-row: 3/4;
       padding-left: .5rem;
       padding-right: .5rem; } }
   @media screen and (min-width: 901px) and (max-width: 1110px) {
     .feria-5 {
-      grid-column: 2/4;
+      grid-column: 1/3;
       grid-row: 3/4;
       padding-left: .5rem;
       padding-right: .5rem; } }
+
+.feria-6 {
+  border: none;
+  margin: 1rem;
+  grid-column: 5/7;
+  grid-row: 2/3;
+  padding-left: 1rem;
+  padding-right: .5rem; }
+  @media screen and (max-width: 361px) {
+    .feria-6 {
+      grid-column: 1/2;
+      grid-row: 6/7;
+      padding: 0; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .feria-6 {
+      grid-column: 1/2;
+      grid-row: 6/7;
+      padding: 0; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .feria-6 {
+      grid-column: 3/5;
+      grid-row: 3/4;
+      padding-left: 1rem;
+      padding-right: .5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .feria-6 {
+      grid-column: 3/5;
+      grid-row: 3/4;
+      padding-left: 1rem;
+      padding-right: .5rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .feria-6 {
+      grid-column: 3/5;
+      grid-row: 3/4;
+      padding-left: 1rem;
+      padding-right: .5rem; } }
+
+.feria-7 {
+  border: none;
+  margin: 1rem;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  padding-left: .5rem;
+  padding-right: .5rem; }
+  @media screen and (max-width: 361px) {
+    .feria-7 {
+      grid-column: 1/2;
+      grid-row: 7/8;
+      padding: 0; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .feria-7 {
+      grid-column: 1/2;
+      grid-row: 7/8;
+      padding: 0; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .feria-7 {
+      grid-column: 1/3;
+      grid-row: 4/5;
+      padding-left: .5rem;
+      padding-right: 1rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .feria-7 {
+      grid-column: 1/3;
+      grid-row: 4/5;
+      padding-left: .5rem;
+      padding-right: 1rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .feria-7 {
+      grid-column: 1/3;
+      grid-row: 4/5;
+      padding-left: .5rem;
+      padding-right: 1rem; } }
+
+.feria-8 {
+  border: none;
+  margin: 1rem;
+  grid-column: 3/5;
+  grid-row: 3/4;
+  padding-left: .5rem;
+  padding-right: 1rem; }
+  @media screen and (max-width: 361px) {
+    .feria-8 {
+      grid-column: 1/2;
+      grid-row: 8/9;
+      padding: 0; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .feria-8 {
+      grid-column: 1/2;
+      grid-row: 8/9;
+      padding: 0; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .feria-8 {
+      grid-column: 3/5;
+      grid-row: 4/5;
+      padding-left: 1rem;
+      padding-right: .5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .feria-8 {
+      grid-column: 3/5;
+      grid-row: 4/5;
+      padding-left: 1rem;
+      padding-right: .5rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .feria-8 {
+      grid-column: 3/5;
+      grid-row: 4/5;
+      padding-left: 1rem;
+      padding-right: .5rem; } }
+
+.feria-9 {
+  border: none;
+  margin: 1rem;
+  grid-column: 5/7;
+  grid-row: 3/4;
+  padding-right: .5rem; }
+  @media screen and (max-width: 361px) {
+    .feria-9 {
+      grid-column: 1/2;
+      grid-row: 9/10;
+      padding: 0; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .feria-9 {
+      grid-column: 1/2;
+      grid-row: 9/10;
+      padding: 0; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .feria-9 {
+      grid-column: 1/3;
+      grid-row: 5/6;
+      padding-left: .5rem;
+      padding-right: 1rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .feria-9 {
+      grid-column: 1/3;
+      grid-row: 5/6;
+      padding-left: .5rem;
+      padding-right: 1rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .feria-9 {
+      grid-column: 1/3;
+      grid-row: 5/6;
+      padding-left: .5rem;
+      padding-right: 1rem; } }
+
+.feria-10 {
+  border: none;
+  margin: 1rem;
+  grid-column: 3/5;
+  grid-row: 4/5;
+  padding-left: .5rem; }
+  @media screen and (max-width: 361px) {
+    .feria-10 {
+      grid-column: 1/2;
+      grid-row: 10/11;
+      padding: 0; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .feria-10 {
+      grid-column: 1/2;
+      grid-row: 10/11;
+      padding: 0; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .feria-10 {
+      grid-column: 3/5;
+      grid-row: 5/6;
+      padding-left: .5rem;
+      padding-right: .5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .feria-10 {
+      grid-column: 3/5;
+      grid-row: 5/6;
+      padding-left: .5rem;
+      padding-right: .5rem; } }
+  @media screen and (min-width: 901px) and (max-width: 1110px) {
+    .feria-10 {
+      grid-column: 3/5;
+      grid-row: 5/6;
+      padding-left: .5rem;
+      padding-right: .5rem; } }
+
+.img-wa {
+  position: fixed;
+  bottom: .1rem;
+  right: .1rem;
+  margin-top: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  height: 7rem;
+  width: 7rem; }
+  @media screen and (max-width: 361px) {
+    .img-wa {
+      height: 4.5rem;
+      width: 4.5rem; } }
+  @media screen and (max-width: 450px) and (min-width: 362px) {
+    .img-wa {
+      height: 4.7rem;
+      width: 4.7rem; } }
+  @media screen and (max-width: 687px) and (min-width: 451px) {
+    .img-wa {
+      height: 5rem;
+      width: 5rem; } }
+  @media screen and (min-width: 688px) and (max-width: 900px) {
+    .img-wa {
+      height: 5.5rem;
+      width: 5.5rem; } }
+  .img-wa:hover {
+    transform: scale(1.04);
+    transition: transform .6s ease; }
 
 .texto-404 {
   font-size: 2.6rem;
