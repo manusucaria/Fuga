@@ -13,7 +13,7 @@ header{
             color: map-get($map:$paleta, $key: 'third');
             transform: translateX(.5px);
         }
-        @media screen and (max-width: 360px) {
+        @media screen and (max-width: 361px) {
             font-size: 3.7rem;
         }
         @include cel{
